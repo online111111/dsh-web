@@ -104,18 +104,6 @@
     "subcategory": "memory"
   },
   {
-    "id": "dsh-hindsight-memory",
-    "name": "Hindsight 长期记忆",
-    "nameEn": "Hindsight Long-term Memory",
-    "author": "jackyytche",
-    "description": "把 Hindsight 接入 DSH 的管线级长期记忆插件：每轮首次模型调用前自动召回并注入相关记忆，轮次结束后异步留存；提供独立设置分区，可配置启用状态、API URL、Bearer API Key、Bank ID 与 Recall Budget。",
-    "descriptionEn": "Pipeline-level Hindsight memory for DSH: automatically recalls and injects relevant memories before the first model call of each turn, then retains the completed turn asynchronously. It provides a dedicated settings section for enablement, API URL, Bearer API key, Bank ID and recall budget.",
-    "repo": "https://github.com/jackyytche/dsh-hindsight-memory",
-    "npm": "dsh-hindsight-memory",
-    "category": "knowledge",
-    "subcategory": "memory"
-  },
-  {
     "id": "dsh-plugin-hub",
     "name": "插件中心（dsh-plugin-hub）",
     "nameEn": "Plugin Hub",
